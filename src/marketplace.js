@@ -1,0 +1,32 @@
+
+// List of locations for APS Lab
+export const locations = [
+	"Delhi",
+	"Lucknow",
+	"Kolkata",
+	"Hyderabad",
+	"Chennai",
+	"Raipur",
+	"Jaipur",
+	"Guwahati",
+	"Patna",
+	"Bhopal",
+	"Dehradun",
+	"Chandigarh",
+	"Ahemedabad",
+	"Bhubneshwar",
+	"Ranchi",
+	"Imphal",
+	"Goa",
+	"Banagalore",
+	"Itanagar",
+	"Gurgaon",
+	"Ambala",
+	"Noida",
+	"Shimla",
+	"Shillong",
+	"Maharashtra",
+	"Bhubaneswar",
+	"Bengaluru",
+	"Ahmedabad"
+];
