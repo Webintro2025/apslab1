@@ -3,8 +3,8 @@ import ContactForm from '@/components/ContactForm';
 import React from 'react';
 
 // Dynamic SEO metadata for each location page
-export function generateMetadata({ params }) {
-  const { slug } = params;
+export async function generateMetadata({ params }) {
+  const { slug } =await  params;
     const locationName =
       locations.find(
         (loc) =>
@@ -62,8 +62,8 @@ export function generateMetadata({ params }) {
   };
 
 
-export default function LocationPage({ params }) {
-  const { slug } = params;
+export default async function LocationPage({ params }) {
+  const { slug } =await params;
   const locationName =
     locations.find(
       (loc) =>
